@@ -1,0 +1,23 @@
+header {height: 70px; width:100%; background-color: transparent; position: fixed;}
+header nav {
+    display: flex;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+header nav .c_nav {display: flex;}
+header nav .c_nav li {color: #fff; margin-right: 50px;}
+header nav .c_nav li:last-child { margin-right: 0;}
+header nav .util {display: flex;}
+header nav .util li {margin-right: 50px;}
+
+#mv {width: 100%; position: relative; z-index: -100;}
+#mv > img {width: 100%;}
+#mv h2 {font-size: 36px; color: #fff; position: absolute; top: 40%; right: 25%; line-height: 150%;}
+/* #mv p {}
+#mv .btn {}
+#mv .mv_bar {}
+#mv .mv_bar img {}
+#mv .scroll {} */
